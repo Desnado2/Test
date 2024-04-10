@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page 1</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Bienvenue sur la Page 1</h1>
+  <p>Voulez-vous aller sur la Page 2?</p>
+  <button onclick="goToPage2()">Page 2</button>
+</div>
+
+<script>
+function goToPage2() {
+  // Rediriger vers la page 2
+  window.location.href = "page2.html";
+}
+</script>
+
+</body>
+</html>
